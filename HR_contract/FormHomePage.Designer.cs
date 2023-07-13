@@ -107,7 +107,7 @@
             this.contract1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.contract1.Location = new System.Drawing.Point(254, 0);
             this.contract1.Name = "contract1";
-            this.contract1.Size = new System.Drawing.Size(1369, 708);
+            this.contract1.Size = new System.Drawing.Size(1369, 771);
             this.contract1.TabIndex = 3;
             // 
             // background1
@@ -138,6 +138,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "FormHomePage";
             this.Text = "FormHomePage";
+            this.Load += new System.EventHandler(this.FormHomePage_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

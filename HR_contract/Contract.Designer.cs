@@ -40,7 +40,6 @@
             System.Windows.Forms.Label emailLabel;
             System.Windows.Forms.Label label1;
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtid = new System.Windows.Forms.TextBox();
             this.txtfirstN = new System.Windows.Forms.TextBox();
             this.txtLastN = new System.Windows.Forms.TextBox();
             this.cboGender = new System.Windows.Forms.ComboBox();
@@ -54,6 +53,7 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnok = new System.Windows.Forms.Button();
+            this.idAndName = new System.Windows.Forms.ComboBox();
             label2 = new System.Windows.Forms.Label();
             firstNameLabel = new System.Windows.Forms.Label();
             lastNameLabel = new System.Windows.Forms.Label();
@@ -192,8 +192,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.idAndName);
             this.groupBox1.Controls.Add(label2);
-            this.groupBox1.Controls.Add(this.txtid);
             this.groupBox1.Controls.Add(firstNameLabel);
             this.groupBox1.Controls.Add(this.txtfirstN);
             this.groupBox1.Controls.Add(lastNameLabel);
@@ -217,15 +217,6 @@
             this.groupBox1.Size = new System.Drawing.Size(944, 575);
             this.groupBox1.TabIndex = 32;
             this.groupBox1.TabStop = false;
-            // 
-            // txtid
-            // 
-            this.txtid.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtid.Location = new System.Drawing.Point(50, 79);
-            this.txtid.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtid.Name = "txtid";
-            this.txtid.Size = new System.Drawing.Size(311, 36);
-            this.txtid.TabIndex = 21;
             // 
             // txtfirstN
             // 
@@ -263,12 +254,12 @@
             // 
             // dtpdob
             // 
-            this.dtpdob.Font = new System.Drawing.Font("សម្រាប់កូនខ្មែរ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpdob.Font = new System.Drawing.Font("សម្រាប់កូនខ្មែរ", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpdob.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpdob.Location = new System.Drawing.Point(50, 179);
             this.dtpdob.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dtpdob.Name = "dtpdob";
-            this.dtpdob.Size = new System.Drawing.Size(309, 48);
+            this.dtpdob.Size = new System.Drawing.Size(309, 41);
             this.dtpdob.TabIndex = 8;
             // 
             // txtsalary
@@ -331,6 +322,7 @@
             this.btnUpdate.TabIndex = 31;
             this.btnUpdate.Text = "កែប្រែ";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnClear
             // 
@@ -341,6 +333,7 @@
             this.btnClear.TabIndex = 30;
             this.btnClear.Text = "សម្អាត";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnDelete
             // 
@@ -351,6 +344,7 @@
             this.btnDelete.TabIndex = 29;
             this.btnDelete.Text = "លុប";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnok
             // 
@@ -362,6 +356,16 @@
             this.btnok.Text = "យល់ព្រម";
             this.btnok.UseVisualStyleBackColor = true;
             this.btnok.Click += new System.EventHandler(this.btnok_Click);
+            // 
+            // idAndName
+            // 
+            this.idAndName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idAndName.FormattingEnabled = true;
+            this.idAndName.Location = new System.Drawing.Point(53, 90);
+            this.idAndName.Name = "idAndName";
+            this.idAndName.Size = new System.Drawing.Size(306, 37);
+            this.idAndName.TabIndex = 26;
+            this.idAndName.SelectedIndexChanged += new System.EventHandler(this.idAndName_SelectedIndexChanged);
             // 
             // Contract
             // 
@@ -385,7 +389,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox txtid;
         private System.Windows.Forms.TextBox txtfirstN;
         private System.Windows.Forms.TextBox txtLastN;
         private System.Windows.Forms.ComboBox cboGender;
@@ -399,5 +402,6 @@
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnok;
+        private System.Windows.Forms.ComboBox idAndName;
     }
 }

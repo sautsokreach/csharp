@@ -61,5 +61,9 @@ namespace HR_contract
 
         }
 
+        private void FormHomePage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
