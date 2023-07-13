@@ -107,7 +107,7 @@
             this.contract1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.contract1.Location = new System.Drawing.Point(254, 0);
             this.contract1.Name = "contract1";
-            this.contract1.Size = new System.Drawing.Size(1212, 630);
+            this.contract1.Size = new System.Drawing.Size(1369, 708);
             this.contract1.TabIndex = 3;
             // 
             // background1
@@ -115,7 +115,7 @@
             this.background1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.background1.Location = new System.Drawing.Point(254, 0);
             this.background1.Name = "background1";
-            this.background1.Size = new System.Drawing.Size(1212, 621);
+            this.background1.Size = new System.Drawing.Size(1369, 708);
             this.background1.TabIndex = 2;
             // 
             // dashboard1
@@ -123,7 +123,7 @@
             this.dashboard1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.dashboard1.Location = new System.Drawing.Point(254, 0);
             this.dashboard1.Name = "dashboard1";
-            this.dashboard1.Size = new System.Drawing.Size(1207, 621);
+            this.dashboard1.Size = new System.Drawing.Size(1369, 630);
             this.dashboard1.TabIndex = 1;
             // 
             // FormHomePage
@@ -131,7 +131,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1476, 783);
+            this.ClientSize = new System.Drawing.Size(1742, 783);
             this.Controls.Add(this.contract1);
             this.Controls.Add(this.background1);
             this.Controls.Add(this.dashboard1);

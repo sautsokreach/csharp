@@ -71,100 +71,110 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label2.Location = new System.Drawing.Point(48, 34);
             label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(42, 16);
+            label2.Size = new System.Drawing.Size(89, 29);
             label2.TabIndex = 25;
             label2.Text = "អត្ថលេខ";
             // 
             // firstNameLabel
             // 
             firstNameLabel.AutoSize = true;
+            firstNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             firstNameLabel.Location = new System.Drawing.Point(569, 127);
             firstNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             firstNameLabel.Name = "firstNameLabel";
-            firstNameLabel.Size = new System.Drawing.Size(42, 16);
+            firstNameLabel.Size = new System.Drawing.Size(87, 29);
             firstNameLabel.TabIndex = 1;
             firstNameLabel.Text = "នាមខ្លួន";
             // 
             // lastNameLabel
             // 
             lastNameLabel.AutoSize = true;
+            lastNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             lastNameLabel.Location = new System.Drawing.Point(566, 30);
             lastNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             lastNameLabel.Name = "lastNameLabel";
-            lastNameLabel.Size = new System.Drawing.Size(52, 16);
+            lastNameLabel.Size = new System.Drawing.Size(110, 29);
             lastNameLabel.TabIndex = 3;
             lastNameLabel.Text = "នាមត្រកូល";
             // 
             // genderLabel
             // 
             genderLabel.AutoSize = true;
+            genderLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             genderLabel.Location = new System.Drawing.Point(575, 240);
             genderLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             genderLabel.Name = "genderLabel";
-            genderLabel.Size = new System.Drawing.Size(25, 16);
+            genderLabel.Size = new System.Drawing.Size(52, 29);
             genderLabel.TabIndex = 5;
             genderLabel.Text = "ភេទ";
             // 
             // hireDateLabel
             // 
             hireDateLabel.AutoSize = true;
+            hireDateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             hireDateLabel.Location = new System.Drawing.Point(52, 134);
             hireDateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             hireDateLabel.Name = "hireDateLabel";
-            hireDateLabel.Size = new System.Drawing.Size(65, 16);
+            hireDateLabel.Size = new System.Drawing.Size(140, 29);
             hireDateLabel.TabIndex = 7;
             hireDateLabel.Text = "ថ្ងៃចុះកិច្ចសន្យា";
             // 
             // salaryLabel
             // 
             salaryLabel.AutoSize = true;
+            salaryLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             salaryLabel.Location = new System.Drawing.Point(48, 236);
             salaryLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             salaryLabel.Name = "salaryLabel";
-            salaryLabel.Size = new System.Drawing.Size(39, 16);
+            salaryLabel.Size = new System.Drawing.Size(82, 29);
             salaryLabel.TabIndex = 9;
             salaryLabel.Text = "ប្រាក់ខែ";
             // 
             // bonusLabel
             // 
             bonusLabel.AutoSize = true;
+            bonusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             bonusLabel.Location = new System.Drawing.Point(52, 344);
             bonusLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             bonusLabel.Name = "bonusLabel";
-            bonusLabel.Size = new System.Drawing.Size(47, 16);
+            bonusLabel.Size = new System.Drawing.Size(99, 29);
             bonusLabel.TabIndex = 11;
             bonusLabel.Text = "ប្រាក់រង្វន់";
             // 
             // typeofstaffLabel
             // 
             typeofstaffLabel.AutoSize = true;
+            typeofstaffLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             typeofstaffLabel.Location = new System.Drawing.Point(52, 450);
             typeofstaffLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             typeofstaffLabel.Name = "typeofstaffLabel";
-            typeofstaffLabel.Size = new System.Drawing.Size(67, 16);
+            typeofstaffLabel.Size = new System.Drawing.Size(143, 29);
             typeofstaffLabel.TabIndex = 13;
             typeofstaffLabel.Text = "ប្រភេទបុគ្គលិក";
             // 
             // phoneLabel
             // 
             phoneLabel.AutoSize = true;
+            phoneLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             phoneLabel.Location = new System.Drawing.Point(569, 449);
             phoneLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             phoneLabel.Name = "phoneLabel";
-            phoneLabel.Size = new System.Drawing.Size(51, 16);
+            phoneLabel.Size = new System.Drawing.Size(111, 29);
             phoneLabel.TabIndex = 15;
             phoneLabel.Text = "លេខទូរស័ព្ទ";
             // 
             // emailLabel
             // 
             emailLabel.AutoSize = true;
+            emailLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             emailLabel.Location = new System.Drawing.Point(569, 344);
             emailLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             emailLabel.Name = "emailLabel";
-            emailLabel.Size = new System.Drawing.Size(34, 16);
+            emailLabel.Size = new System.Drawing.Size(72, 29);
             emailLabel.TabIndex = 17;
             emailLabel.Text = "អ៊ីម៉ែល";
             // 
@@ -173,7 +183,7 @@
             label1.AutoSize = true;
             label1.Font = new System.Drawing.Font("សម្រាប់កូនខ្មែរ", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            label1.Location = new System.Drawing.Point(473, 30);
+            label1.Location = new System.Drawing.Point(528, 30);
             label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new System.Drawing.Size(263, 60);
@@ -210,33 +220,37 @@
             // 
             // txtid
             // 
+            this.txtid.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtid.Location = new System.Drawing.Point(50, 79);
             this.txtid.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtid.Name = "txtid";
-            this.txtid.Size = new System.Drawing.Size(311, 22);
+            this.txtid.Size = new System.Drawing.Size(311, 36);
             this.txtid.TabIndex = 21;
             // 
             // txtfirstN
             // 
             this.txtfirstN.Enabled = false;
+            this.txtfirstN.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtfirstN.Location = new System.Drawing.Point(573, 176);
             this.txtfirstN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtfirstN.Name = "txtfirstN";
-            this.txtfirstN.Size = new System.Drawing.Size(309, 22);
+            this.txtfirstN.Size = new System.Drawing.Size(309, 36);
             this.txtfirstN.TabIndex = 2;
             // 
             // txtLastN
             // 
             this.txtLastN.Enabled = false;
+            this.txtLastN.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLastN.Location = new System.Drawing.Point(571, 79);
             this.txtLastN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtLastN.Name = "txtLastN";
-            this.txtLastN.Size = new System.Drawing.Size(311, 22);
+            this.txtLastN.Size = new System.Drawing.Size(311, 36);
             this.txtLastN.TabIndex = 4;
             // 
             // cboGender
             // 
             this.cboGender.Enabled = false;
+            this.cboGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboGender.FormattingEnabled = true;
             this.cboGender.Items.AddRange(new object[] {
             "ប្រុស",
@@ -244,7 +258,7 @@
             this.cboGender.Location = new System.Drawing.Point(573, 285);
             this.cboGender.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboGender.Name = "cboGender";
-            this.cboGender.Size = new System.Drawing.Size(309, 24);
+            this.cboGender.Size = new System.Drawing.Size(309, 37);
             this.cboGender.TabIndex = 6;
             // 
             // dtpdob
@@ -259,22 +273,25 @@
             // 
             // txtsalary
             // 
+            this.txtsalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtsalary.Location = new System.Drawing.Point(50, 285);
             this.txtsalary.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtsalary.Name = "txtsalary";
-            this.txtsalary.Size = new System.Drawing.Size(309, 22);
+            this.txtsalary.Size = new System.Drawing.Size(309, 36);
             this.txtsalary.TabIndex = 10;
             // 
             // txtbonus
             // 
+            this.txtbonus.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbonus.Location = new System.Drawing.Point(50, 389);
             this.txtbonus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtbonus.Name = "txtbonus";
-            this.txtbonus.Size = new System.Drawing.Size(311, 22);
+            this.txtbonus.Size = new System.Drawing.Size(311, 36);
             this.txtbonus.TabIndex = 12;
             // 
             // cbotypestaff
             // 
+            this.cbotypestaff.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbotypestaff.FormattingEnabled = true;
             this.cbotypestaff.Items.AddRange(new object[] {
             "ពេញសិទ្ធ",
@@ -282,29 +299,32 @@
             this.cbotypestaff.Location = new System.Drawing.Point(50, 495);
             this.cbotypestaff.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbotypestaff.Name = "cbotypestaff";
-            this.cbotypestaff.Size = new System.Drawing.Size(309, 24);
+            this.cbotypestaff.Size = new System.Drawing.Size(309, 37);
             this.cbotypestaff.TabIndex = 14;
             // 
             // txtphone
             // 
             this.txtphone.Enabled = false;
+            this.txtphone.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtphone.Location = new System.Drawing.Point(576, 494);
             this.txtphone.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtphone.Name = "txtphone";
-            this.txtphone.Size = new System.Drawing.Size(306, 22);
+            this.txtphone.Size = new System.Drawing.Size(306, 36);
             this.txtphone.TabIndex = 16;
             // 
             // txtemail
             // 
             this.txtemail.Enabled = false;
+            this.txtemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtemail.Location = new System.Drawing.Point(576, 389);
             this.txtemail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtemail.Name = "txtemail";
-            this.txtemail.Size = new System.Drawing.Size(306, 22);
+            this.txtemail.Size = new System.Drawing.Size(306, 36);
             this.txtemail.TabIndex = 18;
             // 
             // btnUpdate
             // 
+            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.Location = new System.Drawing.Point(494, 694);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(136, 56);
@@ -314,6 +334,7 @@
             // 
             // btnClear
             // 
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.Location = new System.Drawing.Point(908, 694);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(136, 56);
@@ -323,6 +344,7 @@
             // 
             // btnDelete
             // 
+            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.Location = new System.Drawing.Point(704, 694);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(136, 56);
@@ -332,6 +354,7 @@
             // 
             // btnok
             // 
+            this.btnok.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnok.Location = new System.Drawing.Point(280, 694);
             this.btnok.Name = "btnok";
             this.btnok.Size = new System.Drawing.Size(136, 56);

@@ -28,124 +28,127 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button3 = new System.Windows.Forms.Button();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.btnedit = new System.Windows.Forms.Button();
+            this.familyStatus = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.motherStatus = new System.Windows.Forms.ComboBox();
+            this.fatherStatus = new System.Windows.Forms.ComboBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.languageLevel = new System.Windows.Forms.ComboBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.lastNameEng = new System.Windows.Forms.TextBox();
+            this.firstNameEng = new System.Windows.Forms.TextBox();
+            this.lastNameKhmer = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.motherJob = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.mother = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.fatherJob = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.father = new System.Windows.Forms.TextBox();
+            this.langauge = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.degreeEducation = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.email = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.phoneNumber = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.addreess = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateOfBirth = new System.Windows.Forms.DateTimePicker();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.nationality = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.nation = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.gender = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.placeOfBirth = new System.Windows.Forms.TextBox();
+            this.firstNameKhmer = new System.Windows.Forms.TextBox();
+            this.btndelete = new System.Windows.Forms.Button();
+            this.btnGet = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button3
+            // btnedit
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button3.Location = new System.Drawing.Point(837, 582);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 39);
-            this.button3.TabIndex = 101;
-            this.button3.Text = "Back";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnedit.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnedit.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnedit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnedit.Location = new System.Drawing.Point(622, 616);
+            this.btnedit.Margin = new System.Windows.Forms.Padding(4);
+            this.btnedit.Name = "btnedit";
+            this.btnedit.Size = new System.Drawing.Size(143, 65);
+            this.btnedit.TabIndex = 101;
+            this.btnedit.Text = "Edit";
+            this.btnedit.UseVisualStyleBackColor = true;
             // 
-            // comboBox7
+            // familyStatus
             // 
-            this.comboBox7.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
+            this.familyStatus.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.familyStatus.FormattingEnabled = true;
+            this.familyStatus.Items.AddRange(new object[] {
             "នៅលីវ",
             "មានគ្រួសារ"});
-            this.comboBox7.Location = new System.Drawing.Point(803, 24);
-            this.comboBox7.Margin = new System.Windows.Forms.Padding(4);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(364, 42);
-            this.comboBox7.TabIndex = 105;
+            this.familyStatus.Location = new System.Drawing.Point(803, 24);
+            this.familyStatus.Margin = new System.Windows.Forms.Padding(4);
+            this.familyStatus.Name = "familyStatus";
+            this.familyStatus.Size = new System.Drawing.Size(364, 42);
+            this.familyStatus.TabIndex = 105;
             // 
             // button2
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button2.Location = new System.Drawing.Point(705, 582);
+            this.button2.Location = new System.Drawing.Point(425, 616);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 39);
+            this.button2.Size = new System.Drawing.Size(151, 65);
             this.button2.TabIndex = 99;
             this.button2.Text = "Save";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // comboBox6
+            // motherStatus
             // 
-            this.comboBox6.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
+            this.motherStatus.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.motherStatus.FormattingEnabled = true;
+            this.motherStatus.Items.AddRange(new object[] {
             "ស្លាប់",
             "រស់"});
-            this.comboBox6.Location = new System.Drawing.Point(803, 300);
-            this.comboBox6.Margin = new System.Windows.Forms.Padding(4);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(364, 42);
-            this.comboBox6.TabIndex = 104;
+            this.motherStatus.Location = new System.Drawing.Point(803, 300);
+            this.motherStatus.Margin = new System.Windows.Forms.Padding(4);
+            this.motherStatus.Name = "motherStatus";
+            this.motherStatus.Size = new System.Drawing.Size(364, 42);
+            this.motherStatus.TabIndex = 104;
             // 
-            // comboBox5
+            // fatherStatus
             // 
-            this.comboBox5.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.fatherStatus.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fatherStatus.FormattingEnabled = true;
+            this.fatherStatus.Items.AddRange(new object[] {
             "ស្លាប់",
             "រស់"});
-            this.comboBox5.Location = new System.Drawing.Point(803, 136);
-            this.comboBox5.Margin = new System.Windows.Forms.Padding(4);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(364, 42);
-            this.comboBox5.TabIndex = 103;
+            this.fatherStatus.Location = new System.Drawing.Point(803, 136);
+            this.fatherStatus.Margin = new System.Windows.Forms.Padding(4);
+            this.fatherStatus.Name = "fatherStatus";
+            this.fatherStatus.Size = new System.Drawing.Size(364, 42);
+            this.fatherStatus.TabIndex = 103;
             // 
             // label23
             // 
             this.label23.Font = new System.Drawing.Font("Khmer OS Bokor", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.Black;
-            this.label23.Location = new System.Drawing.Point(346, 653);
+            this.label23.Location = new System.Drawing.Point(345, 531);
             this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(79, 44);
@@ -153,25 +156,25 @@
             this.label23.Text = "កម្រិត";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // comboBox4
+            // languageLevel
             // 
-            this.comboBox4.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.languageLevel.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.languageLevel.FormattingEnabled = true;
+            this.languageLevel.Items.AddRange(new object[] {
             "មធ្យម",
             "ល្អបង្គួរ",
             "ល្អ"});
-            this.comboBox4.Location = new System.Drawing.Point(432, 652);
-            this.comboBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(112, 42);
-            this.comboBox4.TabIndex = 100;
+            this.languageLevel.Location = new System.Drawing.Point(431, 530);
+            this.languageLevel.Margin = new System.Windows.Forms.Padding(4);
+            this.languageLevel.Name = "languageLevel";
+            this.languageLevel.Size = new System.Drawing.Size(143, 42);
+            this.languageLevel.TabIndex = 100;
             // 
             // label22
             // 
             this.label22.Font = new System.Drawing.Font("Khmer OS Bokor", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.Black;
-            this.label22.Location = new System.Drawing.Point(10, 651);
+            this.label22.Location = new System.Drawing.Point(10, 526);
             this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(141, 44);
@@ -191,32 +194,32 @@
             this.label21.Text = "Last Name";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox14
+            // lastNameEng
             // 
-            this.textBox14.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(420, 80);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(156, 41);
-            this.textBox14.TabIndex = 96;
+            this.lastNameEng.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lastNameEng.Location = new System.Drawing.Point(420, 80);
+            this.lastNameEng.Margin = new System.Windows.Forms.Padding(4);
+            this.lastNameEng.Name = "lastNameEng";
+            this.lastNameEng.Size = new System.Drawing.Size(156, 41);
+            this.lastNameEng.TabIndex = 96;
             // 
-            // textBox4
+            // firstNameEng
             // 
-            this.textBox4.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(182, 82);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(135, 41);
-            this.textBox4.TabIndex = 95;
+            this.firstNameEng.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.firstNameEng.Location = new System.Drawing.Point(182, 82);
+            this.firstNameEng.Margin = new System.Windows.Forms.Padding(4);
+            this.firstNameEng.Name = "firstNameEng";
+            this.firstNameEng.Size = new System.Drawing.Size(135, 41);
+            this.firstNameEng.TabIndex = 95;
             // 
-            // textBox13
+            // lastNameKhmer
             // 
-            this.textBox13.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(420, 24);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(156, 41);
-            this.textBox13.TabIndex = 94;
+            this.lastNameKhmer.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lastNameKhmer.Location = new System.Drawing.Point(420, 24);
+            this.lastNameKhmer.Margin = new System.Windows.Forms.Padding(4);
+            this.lastNameKhmer.Name = "lastNameKhmer";
+            this.lastNameKhmer.Size = new System.Drawing.Size(156, 41);
+            this.lastNameKhmer.TabIndex = 94;
             // 
             // label20
             // 
@@ -242,14 +245,14 @@
             this.label17.Text = "មុខរបរ";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox11
+            // motherJob
             // 
-            this.textBox11.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(803, 355);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(364, 41);
-            this.textBox11.TabIndex = 92;
+            this.motherJob.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.motherJob.Location = new System.Drawing.Point(803, 355);
+            this.motherJob.Margin = new System.Windows.Forms.Padding(4);
+            this.motherJob.Name = "motherJob";
+            this.motherJob.Size = new System.Drawing.Size(364, 41);
+            this.motherJob.TabIndex = 92;
             // 
             // label18
             // 
@@ -275,14 +278,14 @@
             this.label19.Text = "ម្តាយឈ្មោះ";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox12
+            // mother
             // 
-            this.textBox12.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(803, 245);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(364, 41);
-            this.textBox12.TabIndex = 89;
+            this.mother.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mother.Location = new System.Drawing.Point(803, 245);
+            this.mother.Margin = new System.Windows.Forms.Padding(4);
+            this.mother.Name = "mother";
+            this.mother.Size = new System.Drawing.Size(364, 41);
+            this.mother.TabIndex = 89;
             // 
             // label16
             // 
@@ -296,14 +299,15 @@
             this.label16.Text = "មុខរបរ";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox10
+            // fatherJob
             // 
-            this.textBox10.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(803, 189);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(364, 41);
-            this.textBox10.TabIndex = 87;
+            this.fatherJob.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fatherJob.Location = new System.Drawing.Point(803, 189);
+            this.fatherJob.Margin = new System.Windows.Forms.Padding(4);
+            this.fatherJob.Name = "fatherJob";
+            this.fatherJob.Size = new System.Drawing.Size(364, 41);
+            this.fatherJob.TabIndex = 87;
+            this.fatherJob.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
             // 
             // label15
             // 
@@ -329,31 +333,31 @@
             this.label14.Text = "ឪពុកឈ្មោះ";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox9
+            // father
             // 
-            this.textBox9.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(803, 82);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(364, 41);
-            this.textBox9.TabIndex = 84;
+            this.father.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.father.Location = new System.Drawing.Point(803, 82);
+            this.father.Margin = new System.Windows.Forms.Padding(4);
+            this.father.Name = "father";
+            this.father.Size = new System.Drawing.Size(364, 41);
+            this.father.TabIndex = 84;
             // 
-            // comboBox3
+            // langauge
             // 
-            this.comboBox3.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.langauge.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.langauge.FormattingEnabled = true;
+            this.langauge.Items.AddRange(new object[] {
             "អង្គគ្លេស",
             "ថៃ",
             "វៀតណាម",
             "ចិន",
             "ជប៉ុន",
             "កូរេ"});
-            this.comboBox3.Location = new System.Drawing.Point(180, 653);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(135, 42);
-            this.comboBox3.TabIndex = 82;
+            this.langauge.Location = new System.Drawing.Point(180, 528);
+            this.langauge.Margin = new System.Windows.Forms.Padding(4);
+            this.langauge.Name = "langauge";
+            this.langauge.Size = new System.Drawing.Size(157, 42);
+            this.langauge.TabIndex = 82;
             // 
             // label13
             // 
@@ -367,25 +371,25 @@
             this.label13.Text = "ស្ថានភាពគ្រួសារ";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // comboBox2
+            // degreeEducation
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.degreeEducation.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.degreeEducation.FormattingEnabled = true;
+            this.degreeEducation.Items.AddRange(new object[] {
             "ប្រុស",
             "ស្រី",
             "ផ្សេងៗ"});
-            this.comboBox2.Location = new System.Drawing.Point(180, 584);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(363, 42);
-            this.comboBox2.TabIndex = 80;
+            this.degreeEducation.Location = new System.Drawing.Point(804, 477);
+            this.degreeEducation.Margin = new System.Windows.Forms.Padding(4);
+            this.degreeEducation.Name = "degreeEducation";
+            this.degreeEducation.Size = new System.Drawing.Size(363, 42);
+            this.degreeEducation.TabIndex = 80;
             // 
             // label8
             // 
             this.label8.Font = new System.Drawing.Font("Khmer OS Bokor", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(10, 582);
+            this.label8.Location = new System.Drawing.Point(634, 475);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(141, 44);
@@ -397,7 +401,7 @@
             // 
             this.label7.Font = new System.Drawing.Font("Khmer OS Bokor", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(10, 520);
+            this.label7.Location = new System.Drawing.Point(632, 405);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(141, 44);
@@ -405,14 +409,14 @@
             this.label7.Text = "អ៊ីម៉េល";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox2
+            // email
             // 
-            this.textBox2.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(182, 524);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(363, 41);
-            this.textBox2.TabIndex = 78;
+            this.email.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email.Location = new System.Drawing.Point(804, 409);
+            this.email.Margin = new System.Windows.Forms.Padding(4);
+            this.email.Name = "email";
+            this.email.Size = new System.Drawing.Size(363, 41);
+            this.email.TabIndex = 78;
             // 
             // label12
             // 
@@ -426,14 +430,14 @@
             this.label12.Text = "លេខទូរស័ព្វ";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox8
+            // phoneNumber
             // 
-            this.textBox8.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(180, 467);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(363, 41);
-            this.textBox8.TabIndex = 75;
+            this.phoneNumber.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phoneNumber.Location = new System.Drawing.Point(180, 467);
+            this.phoneNumber.Margin = new System.Windows.Forms.Padding(4);
+            this.phoneNumber.Name = "phoneNumber";
+            this.phoneNumber.Size = new System.Drawing.Size(394, 41);
+            this.phoneNumber.TabIndex = 75;
             // 
             // label2
             // 
@@ -459,14 +463,14 @@
             this.label3.Text = "ភេទ";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox7
+            // addreess
             // 
-            this.textBox7.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(180, 298);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(364, 41);
-            this.textBox7.TabIndex = 76;
+            this.addreess.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addreess.Location = new System.Drawing.Point(180, 298);
+            this.addreess.Margin = new System.Windows.Forms.Padding(4);
+            this.addreess.Name = "addreess";
+            this.addreess.Size = new System.Drawing.Size(395, 41);
+            this.addreess.TabIndex = 76;
             // 
             // label4
             // 
@@ -492,16 +496,16 @@
             this.label9.Text = "First Name";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // dateTimePicker1
+            // dateOfBirth
             // 
-            this.dateTimePicker1.CustomFormat = "dd/MMM/yyyy";
-            this.dateTimePicker1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(180, 195);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(364, 30);
-            this.dateTimePicker1.TabIndex = 74;
+            this.dateOfBirth.CustomFormat = "dd/MMM/yyyy";
+            this.dateOfBirth.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateOfBirth.Location = new System.Drawing.Point(180, 195);
+            this.dateOfBirth.Margin = new System.Windows.Forms.Padding(4);
+            this.dateOfBirth.Name = "dateOfBirth";
+            this.dateOfBirth.Size = new System.Drawing.Size(395, 30);
+            this.dateOfBirth.TabIndex = 74;
             // 
             // label11
             // 
@@ -515,14 +519,14 @@
             this.label11.Text = "សញ្ជាត្តិ";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox6
+            // nationality
             // 
-            this.textBox6.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(180, 408);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(363, 41);
-            this.textBox6.TabIndex = 72;
+            this.nationality.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nationality.Location = new System.Drawing.Point(180, 408);
+            this.nationality.Margin = new System.Windows.Forms.Padding(4);
+            this.nationality.Name = "nationality";
+            this.nationality.Size = new System.Drawing.Size(394, 41);
+            this.nationality.TabIndex = 72;
             // 
             // label5
             // 
@@ -536,14 +540,14 @@
             this.label5.Text = "ទីកន្លៃងកំណើត";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox5
+            // nation
             // 
-            this.textBox5.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(180, 354);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(364, 41);
-            this.textBox5.TabIndex = 70;
+            this.nation.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nation.Location = new System.Drawing.Point(180, 354);
+            this.nation.Margin = new System.Windows.Forms.Padding(4);
+            this.nation.Name = "nation";
+            this.nation.Size = new System.Drawing.Size(395, 41);
+            this.nation.TabIndex = 70;
             // 
             // label6
             // 
@@ -557,19 +561,19 @@
             this.label6.Text = "អាសយដ្ឋានបច្ចុប្បន្ន";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // comboBox1
+            // gender
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.gender.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gender.FormattingEnabled = true;
+            this.gender.Items.AddRange(new object[] {
             "ប្រុស",
             "ស្រី",
             "ផ្សេងៗ"});
-            this.comboBox1.Location = new System.Drawing.Point(182, 136);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(363, 42);
-            this.comboBox1.TabIndex = 68;
+            this.gender.Location = new System.Drawing.Point(182, 136);
+            this.gender.Margin = new System.Windows.Forms.Padding(4);
+            this.gender.Name = "gender";
+            this.gender.Size = new System.Drawing.Size(394, 42);
+            this.gender.TabIndex = 68;
             // 
             // label10
             // 
@@ -583,74 +587,102 @@
             this.label10.Text = "ជនជាតិ";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox3
+            // placeOfBirth
             // 
-            this.textBox3.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(180, 243);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(364, 41);
-            this.textBox3.TabIndex = 67;
+            this.placeOfBirth.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.placeOfBirth.Location = new System.Drawing.Point(180, 243);
+            this.placeOfBirth.Margin = new System.Windows.Forms.Padding(4);
+            this.placeOfBirth.Name = "placeOfBirth";
+            this.placeOfBirth.Size = new System.Drawing.Size(395, 41);
+            this.placeOfBirth.TabIndex = 67;
             // 
-            // textBox1
+            // firstNameKhmer
             // 
-            this.textBox1.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(180, 24);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(135, 41);
-            this.textBox1.TabIndex = 65;
+            this.firstNameKhmer.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.firstNameKhmer.Location = new System.Drawing.Point(180, 24);
+            this.firstNameKhmer.Margin = new System.Windows.Forms.Padding(4);
+            this.firstNameKhmer.Name = "firstNameKhmer";
+            this.firstNameKhmer.Size = new System.Drawing.Size(135, 41);
+            this.firstNameKhmer.TabIndex = 65;
+            // 
+            // btndelete
+            // 
+            this.btndelete.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btndelete.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndelete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btndelete.Location = new System.Drawing.Point(804, 616);
+            this.btndelete.Margin = new System.Windows.Forms.Padding(4);
+            this.btndelete.Name = "btndelete";
+            this.btndelete.Size = new System.Drawing.Size(143, 65);
+            this.btndelete.TabIndex = 106;
+            this.btndelete.Text = "Delete";
+            this.btndelete.UseVisualStyleBackColor = true;
+            // 
+            // btnGet
+            // 
+            this.btnGet.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnGet.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnGet.Location = new System.Drawing.Point(262, 616);
+            this.btnGet.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGet.Name = "btnGet";
+            this.btnGet.Size = new System.Drawing.Size(143, 65);
+            this.btnGet.TabIndex = 107;
+            this.btnGet.Text = "Get";
+            this.btnGet.UseVisualStyleBackColor = true;
             // 
             // Background
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.comboBox7);
+            this.Controls.Add(this.btnGet);
+            this.Controls.Add(this.btndelete);
+            this.Controls.Add(this.btnedit);
+            this.Controls.Add(this.familyStatus);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.comboBox6);
-            this.Controls.Add(this.comboBox5);
+            this.Controls.Add(this.motherStatus);
+            this.Controls.Add(this.fatherStatus);
             this.Controls.Add(this.label23);
-            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.languageLevel);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.lastNameEng);
+            this.Controls.Add(this.firstNameEng);
+            this.Controls.Add(this.lastNameKhmer);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.motherJob);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label19);
-            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.mother);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.fatherJob);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.father);
+            this.Controls.Add(this.langauge);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.degreeEducation);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.email);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.phoneNumber);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.addreess);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dateOfBirth);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.nationality);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.nation);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.gender);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.placeOfBirth);
+            this.Controls.Add(this.firstNameKhmer);
             this.Name = "Background";
             this.Size = new System.Drawing.Size(1203, 724);
             this.ResumeLayout(false);
@@ -660,51 +692,53 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.Button btnedit;
+        private System.Windows.Forms.ComboBox familyStatus;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox motherStatus;
+        private System.Windows.Forms.ComboBox fatherStatus;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox languageLevel;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox lastNameEng;
+        private System.Windows.Forms.TextBox firstNameEng;
+        private System.Windows.Forms.TextBox lastNameKhmer;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox motherJob;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox mother;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox fatherJob;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.TextBox father;
+        private System.Windows.Forms.ComboBox langauge;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox degreeEducation;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox email;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox phoneNumber;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox addreess;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateOfBirth;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox nationality;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox nation;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox gender;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox placeOfBirth;
+        private System.Windows.Forms.TextBox firstNameKhmer;
+        private System.Windows.Forms.Button btndelete;
+        private System.Windows.Forms.Button btnGet;
     }
 }

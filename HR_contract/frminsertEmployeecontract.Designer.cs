@@ -52,14 +52,14 @@ namespace HR_contract
             this.btnClear = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtsalary = new System.Windows.Forms.TextBox();
-            this.dtpdob = new System.Windows.Forms.DateTimePicker();
-            this.txtemail = new System.Windows.Forms.TextBox();
-            this.txtphone = new System.Windows.Forms.TextBox();
-            this.cboGender = new System.Windows.Forms.ComboBox();
             this.txtid = new System.Windows.Forms.TextBox();
             this.txtfirstN = new System.Windows.Forms.TextBox();
             this.txtLastN = new System.Windows.Forms.TextBox();
+            this.cboGender = new System.Windows.Forms.ComboBox();
+            this.dtpdob = new System.Windows.Forms.DateTimePicker();
+            this.txtsalary = new System.Windows.Forms.TextBox();
+            this.txtphone = new System.Windows.Forms.TextBox();
+            this.txtemail = new System.Windows.Forms.TextBox();
             salaryLabel = new System.Windows.Forms.Label();
             bonusLabel = new System.Windows.Forms.Label();
             typeofstaffLabel = new System.Windows.Forms.Label();
@@ -117,6 +117,77 @@ namespace HR_contract
             label1.Size = new System.Drawing.Size(263, 60);
             label1.TabIndex = 19;
             label1.Text = "កិច្ចសន្យាបុគ្គលិក";
+            label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new System.Drawing.Point(48, 34);
+            label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(98, 40);
+            label2.TabIndex = 25;
+            label2.Text = "អត្ថលេខ";
+            // 
+            // hireDateLabel
+            // 
+            hireDateLabel.AutoSize = true;
+            hireDateLabel.Location = new System.Drawing.Point(52, 134);
+            hireDateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            hireDateLabel.Name = "hireDateLabel";
+            hireDateLabel.Size = new System.Drawing.Size(157, 40);
+            hireDateLabel.TabIndex = 7;
+            hireDateLabel.Text = "ថ្ងៃចុះកិច្ចសន្យា";
+            // 
+            // emailLabel
+            // 
+            emailLabel.AutoSize = true;
+            emailLabel.Location = new System.Drawing.Point(569, 344);
+            emailLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            emailLabel.Name = "emailLabel";
+            emailLabel.Size = new System.Drawing.Size(82, 40);
+            emailLabel.TabIndex = 17;
+            emailLabel.Text = "អ៊ីម៉ែល";
+            // 
+            // phoneLabel
+            // 
+            phoneLabel.AutoSize = true;
+            phoneLabel.Location = new System.Drawing.Point(569, 449);
+            phoneLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            phoneLabel.Name = "phoneLabel";
+            phoneLabel.Size = new System.Drawing.Size(131, 40);
+            phoneLabel.TabIndex = 15;
+            phoneLabel.Text = "លេខទូរស័ព្ទ";
+            // 
+            // genderLabel
+            // 
+            genderLabel.AutoSize = true;
+            genderLabel.Location = new System.Drawing.Point(575, 240);
+            genderLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            genderLabel.Name = "genderLabel";
+            genderLabel.Size = new System.Drawing.Size(58, 40);
+            genderLabel.TabIndex = 5;
+            genderLabel.Text = "ភេទ";
+            // 
+            // lastNameLabel
+            // 
+            lastNameLabel.AutoSize = true;
+            lastNameLabel.Location = new System.Drawing.Point(566, 30);
+            lastNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            lastNameLabel.Name = "lastNameLabel";
+            lastNameLabel.Size = new System.Drawing.Size(122, 40);
+            lastNameLabel.TabIndex = 3;
+            lastNameLabel.Text = "នាមត្រកូល";
+            // 
+            // firstNameLabel
+            // 
+            firstNameLabel.AutoSize = true;
+            firstNameLabel.Location = new System.Drawing.Point(569, 127);
+            firstNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            firstNameLabel.Name = "firstNameLabel";
+            firstNameLabel.Size = new System.Drawing.Size(89, 40);
+            firstNameLabel.TabIndex = 1;
+            firstNameLabel.Text = "នាមខ្លួន";
             // 
             // hRDataSet
             // 
@@ -227,110 +298,7 @@ namespace HR_contract
             this.groupBox1.Size = new System.Drawing.Size(944, 575);
             this.groupBox1.TabIndex = 26;
             this.groupBox1.TabStop = false;
-            // 
-            // txtsalary
-            // 
-            this.txtsalary.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbl_contractBindingSource, "salary", true));
-            this.txtsalary.Location = new System.Drawing.Point(50, 285);
-            this.txtsalary.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtsalary.Name = "txtsalary";
-            this.txtsalary.Size = new System.Drawing.Size(309, 48);
-            this.txtsalary.TabIndex = 10;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new System.Drawing.Point(48, 34);
-            label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(98, 40);
-            label2.TabIndex = 25;
-            label2.Text = "អត្ថលេខ";
-            // 
-            // dtpdob
-            // 
-            this.dtpdob.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.tbl_contractBindingSource, "hireDate", true));
-            this.dtpdob.Font = new System.Drawing.Font("សម្រាប់កូនខ្មែរ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpdob.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpdob.Location = new System.Drawing.Point(50, 179);
-            this.dtpdob.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.dtpdob.Name = "dtpdob";
-            this.dtpdob.Size = new System.Drawing.Size(309, 48);
-            this.dtpdob.TabIndex = 8;
-            // 
-            // hireDateLabel
-            // 
-            hireDateLabel.AutoSize = true;
-            hireDateLabel.Location = new System.Drawing.Point(52, 134);
-            hireDateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            hireDateLabel.Name = "hireDateLabel";
-            hireDateLabel.Size = new System.Drawing.Size(157, 40);
-            hireDateLabel.TabIndex = 7;
-            hireDateLabel.Text = "ថ្ងៃចុះកិច្ចសន្យា";
-            // 
-            // txtemail
-            // 
-            this.txtemail.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbl_contractBindingSource, "email", true));
-            this.txtemail.Enabled = false;
-            this.txtemail.Location = new System.Drawing.Point(576, 389);
-            this.txtemail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtemail.Name = "txtemail";
-            this.txtemail.Size = new System.Drawing.Size(306, 48);
-            this.txtemail.TabIndex = 18;
-            // 
-            // emailLabel
-            // 
-            emailLabel.AutoSize = true;
-            emailLabel.Location = new System.Drawing.Point(569, 344);
-            emailLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            emailLabel.Name = "emailLabel";
-            emailLabel.Size = new System.Drawing.Size(82, 40);
-            emailLabel.TabIndex = 17;
-            emailLabel.Text = "អ៊ីម៉ែល";
-            // 
-            // txtphone
-            // 
-            this.txtphone.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbl_contractBindingSource, "phone", true));
-            this.txtphone.Enabled = false;
-            this.txtphone.Location = new System.Drawing.Point(576, 494);
-            this.txtphone.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtphone.Name = "txtphone";
-            this.txtphone.Size = new System.Drawing.Size(306, 48);
-            this.txtphone.TabIndex = 16;
-            // 
-            // phoneLabel
-            // 
-            phoneLabel.AutoSize = true;
-            phoneLabel.Location = new System.Drawing.Point(569, 449);
-            phoneLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            phoneLabel.Name = "phoneLabel";
-            phoneLabel.Size = new System.Drawing.Size(131, 40);
-            phoneLabel.TabIndex = 15;
-            phoneLabel.Text = "លេខទូរស័ព្ទ";
-            // 
-            // genderLabel
-            // 
-            genderLabel.AutoSize = true;
-            genderLabel.Location = new System.Drawing.Point(575, 240);
-            genderLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            genderLabel.Name = "genderLabel";
-            genderLabel.Size = new System.Drawing.Size(58, 40);
-            genderLabel.TabIndex = 5;
-            genderLabel.Text = "ភេទ";
-            // 
-            // cboGender
-            // 
-            this.cboGender.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbl_contractBindingSource, "gender", true));
-            this.cboGender.Enabled = false;
-            this.cboGender.FormattingEnabled = true;
-            this.cboGender.Items.AddRange(new object[] {
-            "ប្រុស",
-            "ស្រី"});
-            this.cboGender.Location = new System.Drawing.Point(573, 285);
-            this.cboGender.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cboGender.Name = "cboGender";
-            this.cboGender.Size = new System.Drawing.Size(309, 48);
-            this.cboGender.TabIndex = 6;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // txtid
             // 
@@ -351,26 +319,6 @@ namespace HR_contract
             this.txtfirstN.Size = new System.Drawing.Size(309, 48);
             this.txtfirstN.TabIndex = 2;
             // 
-            // lastNameLabel
-            // 
-            lastNameLabel.AutoSize = true;
-            lastNameLabel.Location = new System.Drawing.Point(566, 30);
-            lastNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            lastNameLabel.Name = "lastNameLabel";
-            lastNameLabel.Size = new System.Drawing.Size(122, 40);
-            lastNameLabel.TabIndex = 3;
-            lastNameLabel.Text = "នាមត្រកូល";
-            // 
-            // firstNameLabel
-            // 
-            firstNameLabel.AutoSize = true;
-            firstNameLabel.Location = new System.Drawing.Point(569, 127);
-            firstNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            firstNameLabel.Name = "firstNameLabel";
-            firstNameLabel.Size = new System.Drawing.Size(89, 40);
-            firstNameLabel.TabIndex = 1;
-            firstNameLabel.Text = "នាមខ្លួន";
-            // 
             // txtLastN
             // 
             this.txtLastN.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbl_contractBindingSource, "lastName", true));
@@ -380,6 +328,60 @@ namespace HR_contract
             this.txtLastN.Name = "txtLastN";
             this.txtLastN.Size = new System.Drawing.Size(311, 48);
             this.txtLastN.TabIndex = 4;
+            // 
+            // cboGender
+            // 
+            this.cboGender.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbl_contractBindingSource, "gender", true));
+            this.cboGender.Enabled = false;
+            this.cboGender.FormattingEnabled = true;
+            this.cboGender.Items.AddRange(new object[] {
+            "ប្រុស",
+            "ស្រី"});
+            this.cboGender.Location = new System.Drawing.Point(573, 285);
+            this.cboGender.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cboGender.Name = "cboGender";
+            this.cboGender.Size = new System.Drawing.Size(309, 48);
+            this.cboGender.TabIndex = 6;
+            // 
+            // dtpdob
+            // 
+            this.dtpdob.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.tbl_contractBindingSource, "hireDate", true));
+            this.dtpdob.Font = new System.Drawing.Font("សម្រាប់កូនខ្មែរ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpdob.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpdob.Location = new System.Drawing.Point(50, 179);
+            this.dtpdob.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dtpdob.Name = "dtpdob";
+            this.dtpdob.Size = new System.Drawing.Size(309, 48);
+            this.dtpdob.TabIndex = 8;
+            // 
+            // txtsalary
+            // 
+            this.txtsalary.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbl_contractBindingSource, "salary", true));
+            this.txtsalary.Location = new System.Drawing.Point(50, 285);
+            this.txtsalary.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtsalary.Name = "txtsalary";
+            this.txtsalary.Size = new System.Drawing.Size(309, 48);
+            this.txtsalary.TabIndex = 10;
+            // 
+            // txtphone
+            // 
+            this.txtphone.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbl_contractBindingSource, "phone", true));
+            this.txtphone.Enabled = false;
+            this.txtphone.Location = new System.Drawing.Point(576, 494);
+            this.txtphone.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtphone.Name = "txtphone";
+            this.txtphone.Size = new System.Drawing.Size(306, 48);
+            this.txtphone.TabIndex = 16;
+            // 
+            // txtemail
+            // 
+            this.txtemail.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbl_contractBindingSource, "email", true));
+            this.txtemail.Enabled = false;
+            this.txtemail.Location = new System.Drawing.Point(576, 389);
+            this.txtemail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtemail.Name = "txtemail";
+            this.txtemail.Size = new System.Drawing.Size(306, 48);
+            this.txtemail.TabIndex = 18;
             // 
             // frminsertEmployeecontract
             // 
