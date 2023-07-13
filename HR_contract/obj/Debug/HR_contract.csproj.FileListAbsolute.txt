@@ -1,0 +1,140 @@
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\HR_contract.exe.config
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\HR_contract.exe
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\HR_contract.pdb
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\obj\Debug\HR_contract.csproj.AssemblyReference.cache
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\obj\Debug\HR_contract.frminsertEmployeecontract.resources
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\obj\Debug\HR_contract.Properties.Resources.resources
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\obj\Debug\HR_contract.csproj.GenerateResource.cache
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\obj\Debug\HR_contract.csproj.CoreCompileInputs.cache
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\obj\Debug\HR_contract.exe
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\obj\Debug\HR_contract.pdb
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\EnvDTE.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\stdole.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\Microsoft.MSXML.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\C_Shape\CsharpAssignement\HR_contract\HR_contract\obj\Debug\HR_contract.csproj.CopyComplete
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.csproj.AssemblyReference.cache
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.csproj.SuggestedBindingRedirects.cache
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\HR_contract.exe.config
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\HR_contract.exe
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\HR_contract.pdb
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\EnvDTE.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\stdole.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.Contract.resources
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.Form1.resources
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.FormHomePage.resources
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\WindowsFormsApp1.FormLogin.resources
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.frminsertEmployeecontract.resources
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.Properties.Resources.resources
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.Setting.resources
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.csproj.GenerateResource.cache
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.csproj.CoreCompileInputs.cache
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.csproj.CopyComplete
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.exe
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.pdb
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.Background.resources
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.Dashboard.resources
