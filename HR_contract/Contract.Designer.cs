@@ -68,6 +68,118 @@
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new System.Drawing.Point(48, 34);
+            label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(42, 16);
+            label2.TabIndex = 25;
+            label2.Text = "អត្ថលេខ";
+            // 
+            // firstNameLabel
+            // 
+            firstNameLabel.AutoSize = true;
+            firstNameLabel.Location = new System.Drawing.Point(569, 127);
+            firstNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            firstNameLabel.Name = "firstNameLabel";
+            firstNameLabel.Size = new System.Drawing.Size(42, 16);
+            firstNameLabel.TabIndex = 1;
+            firstNameLabel.Text = "នាមខ្លួន";
+            // 
+            // lastNameLabel
+            // 
+            lastNameLabel.AutoSize = true;
+            lastNameLabel.Location = new System.Drawing.Point(566, 30);
+            lastNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            lastNameLabel.Name = "lastNameLabel";
+            lastNameLabel.Size = new System.Drawing.Size(52, 16);
+            lastNameLabel.TabIndex = 3;
+            lastNameLabel.Text = "នាមត្រកូល";
+            // 
+            // genderLabel
+            // 
+            genderLabel.AutoSize = true;
+            genderLabel.Location = new System.Drawing.Point(575, 240);
+            genderLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            genderLabel.Name = "genderLabel";
+            genderLabel.Size = new System.Drawing.Size(25, 16);
+            genderLabel.TabIndex = 5;
+            genderLabel.Text = "ភេទ";
+            // 
+            // hireDateLabel
+            // 
+            hireDateLabel.AutoSize = true;
+            hireDateLabel.Location = new System.Drawing.Point(52, 134);
+            hireDateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            hireDateLabel.Name = "hireDateLabel";
+            hireDateLabel.Size = new System.Drawing.Size(65, 16);
+            hireDateLabel.TabIndex = 7;
+            hireDateLabel.Text = "ថ្ងៃចុះកិច្ចសន្យា";
+            // 
+            // salaryLabel
+            // 
+            salaryLabel.AutoSize = true;
+            salaryLabel.Location = new System.Drawing.Point(48, 236);
+            salaryLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            salaryLabel.Name = "salaryLabel";
+            salaryLabel.Size = new System.Drawing.Size(39, 16);
+            salaryLabel.TabIndex = 9;
+            salaryLabel.Text = "ប្រាក់ខែ";
+            // 
+            // bonusLabel
+            // 
+            bonusLabel.AutoSize = true;
+            bonusLabel.Location = new System.Drawing.Point(52, 344);
+            bonusLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            bonusLabel.Name = "bonusLabel";
+            bonusLabel.Size = new System.Drawing.Size(47, 16);
+            bonusLabel.TabIndex = 11;
+            bonusLabel.Text = "ប្រាក់រង្វន់";
+            // 
+            // typeofstaffLabel
+            // 
+            typeofstaffLabel.AutoSize = true;
+            typeofstaffLabel.Location = new System.Drawing.Point(52, 450);
+            typeofstaffLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            typeofstaffLabel.Name = "typeofstaffLabel";
+            typeofstaffLabel.Size = new System.Drawing.Size(67, 16);
+            typeofstaffLabel.TabIndex = 13;
+            typeofstaffLabel.Text = "ប្រភេទបុគ្គលិក";
+            // 
+            // phoneLabel
+            // 
+            phoneLabel.AutoSize = true;
+            phoneLabel.Location = new System.Drawing.Point(569, 449);
+            phoneLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            phoneLabel.Name = "phoneLabel";
+            phoneLabel.Size = new System.Drawing.Size(51, 16);
+            phoneLabel.TabIndex = 15;
+            phoneLabel.Text = "លេខទូរស័ព្ទ";
+            // 
+            // emailLabel
+            // 
+            emailLabel.AutoSize = true;
+            emailLabel.Location = new System.Drawing.Point(569, 344);
+            emailLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            emailLabel.Name = "emailLabel";
+            emailLabel.Size = new System.Drawing.Size(34, 16);
+            emailLabel.TabIndex = 17;
+            emailLabel.Text = "អ៊ីម៉ែល";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("សម្រាប់កូនខ្មែរ", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label1.ForeColor = System.Drawing.SystemColors.Highlight;
+            label1.Location = new System.Drawing.Point(473, 30);
+            label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(263, 60);
+            label1.TabIndex = 27;
+            label1.Text = "កិច្ចសន្យាបុគ្គលិក";
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(label2);
@@ -96,16 +208,6 @@
             this.groupBox1.TabIndex = 32;
             this.groupBox1.TabStop = false;
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new System.Drawing.Point(48, 34);
-            label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(42, 16);
-            label2.TabIndex = 25;
-            label2.Text = "អត្ថលេខ";
-            // 
             // txtid
             // 
             this.txtid.Location = new System.Drawing.Point(50, 79);
@@ -113,16 +215,6 @@
             this.txtid.Name = "txtid";
             this.txtid.Size = new System.Drawing.Size(311, 22);
             this.txtid.TabIndex = 21;
-            // 
-            // firstNameLabel
-            // 
-            firstNameLabel.AutoSize = true;
-            firstNameLabel.Location = new System.Drawing.Point(569, 127);
-            firstNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            firstNameLabel.Name = "firstNameLabel";
-            firstNameLabel.Size = new System.Drawing.Size(42, 16);
-            firstNameLabel.TabIndex = 1;
-            firstNameLabel.Text = "នាមខ្លួន";
             // 
             // txtfirstN
             // 
@@ -133,16 +225,6 @@
             this.txtfirstN.Size = new System.Drawing.Size(309, 22);
             this.txtfirstN.TabIndex = 2;
             // 
-            // lastNameLabel
-            // 
-            lastNameLabel.AutoSize = true;
-            lastNameLabel.Location = new System.Drawing.Point(566, 30);
-            lastNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            lastNameLabel.Name = "lastNameLabel";
-            lastNameLabel.Size = new System.Drawing.Size(52, 16);
-            lastNameLabel.TabIndex = 3;
-            lastNameLabel.Text = "នាមត្រកូល";
-            // 
             // txtLastN
             // 
             this.txtLastN.Enabled = false;
@@ -151,16 +233,6 @@
             this.txtLastN.Name = "txtLastN";
             this.txtLastN.Size = new System.Drawing.Size(311, 22);
             this.txtLastN.TabIndex = 4;
-            // 
-            // genderLabel
-            // 
-            genderLabel.AutoSize = true;
-            genderLabel.Location = new System.Drawing.Point(575, 240);
-            genderLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            genderLabel.Name = "genderLabel";
-            genderLabel.Size = new System.Drawing.Size(25, 16);
-            genderLabel.TabIndex = 5;
-            genderLabel.Text = "ភេទ";
             // 
             // cboGender
             // 
@@ -175,16 +247,6 @@
             this.cboGender.Size = new System.Drawing.Size(309, 24);
             this.cboGender.TabIndex = 6;
             // 
-            // hireDateLabel
-            // 
-            hireDateLabel.AutoSize = true;
-            hireDateLabel.Location = new System.Drawing.Point(52, 134);
-            hireDateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            hireDateLabel.Name = "hireDateLabel";
-            hireDateLabel.Size = new System.Drawing.Size(65, 16);
-            hireDateLabel.TabIndex = 7;
-            hireDateLabel.Text = "ថ្ងៃចុះកិច្ចសន្យា";
-            // 
             // dtpdob
             // 
             this.dtpdob.Font = new System.Drawing.Font("សម្រាប់កូនខ្មែរ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -195,16 +257,6 @@
             this.dtpdob.Size = new System.Drawing.Size(309, 48);
             this.dtpdob.TabIndex = 8;
             // 
-            // salaryLabel
-            // 
-            salaryLabel.AutoSize = true;
-            salaryLabel.Location = new System.Drawing.Point(48, 236);
-            salaryLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            salaryLabel.Name = "salaryLabel";
-            salaryLabel.Size = new System.Drawing.Size(39, 16);
-            salaryLabel.TabIndex = 9;
-            salaryLabel.Text = "ប្រាក់ខែ";
-            // 
             // txtsalary
             // 
             this.txtsalary.Location = new System.Drawing.Point(50, 285);
@@ -213,16 +265,6 @@
             this.txtsalary.Size = new System.Drawing.Size(309, 22);
             this.txtsalary.TabIndex = 10;
             // 
-            // bonusLabel
-            // 
-            bonusLabel.AutoSize = true;
-            bonusLabel.Location = new System.Drawing.Point(52, 344);
-            bonusLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            bonusLabel.Name = "bonusLabel";
-            bonusLabel.Size = new System.Drawing.Size(47, 16);
-            bonusLabel.TabIndex = 11;
-            bonusLabel.Text = "ប្រាក់រង្វន់";
-            // 
             // txtbonus
             // 
             this.txtbonus.Location = new System.Drawing.Point(50, 389);
@@ -230,16 +272,6 @@
             this.txtbonus.Name = "txtbonus";
             this.txtbonus.Size = new System.Drawing.Size(311, 22);
             this.txtbonus.TabIndex = 12;
-            // 
-            // typeofstaffLabel
-            // 
-            typeofstaffLabel.AutoSize = true;
-            typeofstaffLabel.Location = new System.Drawing.Point(52, 450);
-            typeofstaffLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            typeofstaffLabel.Name = "typeofstaffLabel";
-            typeofstaffLabel.Size = new System.Drawing.Size(67, 16);
-            typeofstaffLabel.TabIndex = 13;
-            typeofstaffLabel.Text = "ប្រភេទបុគ្គលិក";
             // 
             // cbotypestaff
             // 
@@ -253,16 +285,6 @@
             this.cbotypestaff.Size = new System.Drawing.Size(309, 24);
             this.cbotypestaff.TabIndex = 14;
             // 
-            // phoneLabel
-            // 
-            phoneLabel.AutoSize = true;
-            phoneLabel.Location = new System.Drawing.Point(569, 449);
-            phoneLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            phoneLabel.Name = "phoneLabel";
-            phoneLabel.Size = new System.Drawing.Size(51, 16);
-            phoneLabel.TabIndex = 15;
-            phoneLabel.Text = "លេខទូរស័ព្ទ";
-            // 
             // txtphone
             // 
             this.txtphone.Enabled = false;
@@ -271,16 +293,6 @@
             this.txtphone.Name = "txtphone";
             this.txtphone.Size = new System.Drawing.Size(306, 22);
             this.txtphone.TabIndex = 16;
-            // 
-            // emailLabel
-            // 
-            emailLabel.AutoSize = true;
-            emailLabel.Location = new System.Drawing.Point(569, 344);
-            emailLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            emailLabel.Name = "emailLabel";
-            emailLabel.Size = new System.Drawing.Size(34, 16);
-            emailLabel.TabIndex = 17;
-            emailLabel.Text = "អ៊ីម៉ែល";
             // 
             // txtemail
             // 
@@ -327,18 +339,6 @@
             this.btnok.Text = "យល់ព្រម";
             this.btnok.UseVisualStyleBackColor = true;
             this.btnok.Click += new System.EventHandler(this.btnok_Click);
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new System.Drawing.Font("សម្រាប់កូនខ្មែរ", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            label1.Location = new System.Drawing.Point(473, 30);
-            label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(263, 60);
-            label1.TabIndex = 27;
-            label1.Text = "កិច្ចសន្យាបុគ្គលិក";
             // 
             // Contract
             // 
