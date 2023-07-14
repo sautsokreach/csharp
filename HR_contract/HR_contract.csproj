@@ -82,6 +82,12 @@
     <Compile Include="Contract.Designer.cs">
       <DependentUpon>Contract.cs</DependentUpon>
     </Compile>
+    <Compile Include="ContractForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContractForm.Designer.cs">
+      <DependentUpon>ContractForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -111,17 +117,6 @@
     <Compile Include="FormLogin.designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="frminsertEmployeecontract.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frminsertEmployeecontract.Designer.cs">
-      <DependentUpon>frminsertEmployeecontract.cs</DependentUpon>
-    </Compile>
-    <Compile Include="HRDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>HRDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Setting.cs">
@@ -137,6 +132,10 @@
     <EmbeddedResource Include="Contract.resx">
       <DependentUpon>Contract.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ContractForm.resx">
+      <DependentUpon>ContractForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control.rdlc" />
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -148,9 +147,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frminsertEmployeecontract.resx">
-      <DependentUpon>frminsertEmployeecontract.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -176,17 +172,6 @@
     </None>
     <None Include="finalProjectWUDataSet.xss">
       <DependentUpon>finalProjectWUDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="HRDataSet.xsc">
-      <DependentUpon>HRDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="HRDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>HRDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="HRDataSet.xss">
-      <DependentUpon>HRDataSet.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\ClassBackground.datasource" />

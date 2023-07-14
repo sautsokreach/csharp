@@ -13,6 +13,7 @@ namespace HR_contract
 {
     public partial class Dashboard : UserControl
     {
+        String type = "staff";
         public Dashboard()
         {
             InitializeComponent();
@@ -34,12 +35,25 @@ namespace HR_contract
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ClassBackground classBackground = new ClassBackground();
-            classBackground.Id = Convert.ToInt32(dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[0].Value);
-            classBackground.Lastname_khmer = dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[1].Value.ToString();
-            classBackground.Firstname_khmer = dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[2].Value.ToString();
-            Form1 reportBackground = new Form1(classBackground);
-            reportBackground.ShowDialog();
+            if (type == "staff")
+            {
+                ClassBackground classBackground = new ClassBackground();
+                classBackground.Id = Convert.ToInt32(dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[0].Value);
+                classBackground.Lastname_khmer = dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[1].Value.ToString();
+                classBackground.Firstname_khmer = dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[2].Value.ToString();
+                Form1 reportBackground = new Form1(classBackground);
+                reportBackground.ShowDialog();
+            }
+            else
+            {
+                ClassContract classContract = new ClassContract();
+                classContract.firstName = dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[1].Value.ToString();
+                classContract.laststName = dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[2].Value.ToString();
+                classContract.email = dataGridView1.Rows[dataGridView1.CurrentRow.Index].Cells[3].Value.ToString();
+                ContractForm reportContract = new ContractForm(classContract);
+                reportContract.ShowDialog();
+            }
+         
         }
 
         private void Dashboard_Load(object sender, EventArgs e)
@@ -49,6 +63,7 @@ namespace HR_contract
 
         private void button3_Click(object sender, EventArgs e)
         {
+            type = "staff";
             SqlConnection con = new Connection().dbs;
             SqlCommand sqlCmd = new SqlCommand();
             sqlCmd.Connection = con;
@@ -62,6 +77,7 @@ namespace HR_contract
 
         private void button2_Click(object sender, EventArgs e)
         {
+            type = "contract";
             SqlConnection con = new Connection().dbs;
             SqlCommand sqlCmd = new SqlCommand();
             sqlCmd.Connection = con;

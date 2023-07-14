@@ -125,6 +125,7 @@
             this.dashboard1.Name = "dashboard1";
             this.dashboard1.Size = new System.Drawing.Size(1369, 670);
             this.dashboard1.TabIndex = 1;
+            this.dashboard1.Load += new System.EventHandler(this.dashboard1_Load);
             // 
             // FormHomePage
             // 

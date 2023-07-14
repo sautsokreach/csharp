@@ -128,7 +128,6 @@ C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_cont
 C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.Form1.resources
 C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.FormHomePage.resources
 C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\WindowsFormsApp1.FormLogin.resources
-C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.frminsertEmployeecontract.resources
 C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.Properties.Resources.resources
 C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.Setting.resources
 C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.csproj.GenerateResource.cache
@@ -138,3 +137,4 @@ C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_cont
 C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.pdb
 C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.Background.resources
 C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.Dashboard.resources
+C:\Users\TK CUSTOM\Desktop\HR_contract\HR_contract\HR_contract\obj\Debug\HR_contract.ContractForm.resources

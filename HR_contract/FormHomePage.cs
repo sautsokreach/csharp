@@ -68,6 +68,9 @@ namespace HR_contract
 
         }
 
-  
+        private void dashboard1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
