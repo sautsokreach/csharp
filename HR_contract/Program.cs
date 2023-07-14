@@ -19,7 +19,8 @@ namespace HR_contract
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new frminsertEmployeecontract());
-            Application.Run(new FormLogin());
+            // Application.Run(new FormLogin());
+            Application.Run(new FormHomePage());
         }
     }
 }

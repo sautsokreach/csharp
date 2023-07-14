@@ -50,7 +50,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(248, 783);
+            this.panel1.Size = new System.Drawing.Size(248, 818);
             this.panel1.TabIndex = 0;
             // 
             // Exit
@@ -123,7 +123,7 @@
             this.dashboard1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.dashboard1.Location = new System.Drawing.Point(254, 0);
             this.dashboard1.Name = "dashboard1";
-            this.dashboard1.Size = new System.Drawing.Size(1369, 630);
+            this.dashboard1.Size = new System.Drawing.Size(1369, 670);
             this.dashboard1.TabIndex = 1;
             // 
             // FormHomePage
@@ -131,11 +131,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1742, 783);
-            this.Controls.Add(this.contract1);
-            this.Controls.Add(this.background1);
+            this.ClientSize = new System.Drawing.Size(1742, 818);
             this.Controls.Add(this.dashboard1);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.contract1);
+            this.Controls.Add(this.background1);
             this.Name = "FormHomePage";
             this.Text = "FormHomePage";
             this.Load += new System.EventHandler(this.FormHomePage_Load);

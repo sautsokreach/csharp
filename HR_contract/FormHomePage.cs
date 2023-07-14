@@ -16,9 +16,11 @@ namespace HR_contract
         {
             InitializeComponent();
             dashboard1.Show();
+            dashboard1.Dock = DockStyle.Fill;
             dashboard1.BringToFront();
             contract1.Hide();
             background1.Hide();
+
         }
 
         private void contract_Click(object sender, EventArgs e)
@@ -65,5 +67,7 @@ namespace HR_contract
         {
 
         }
+
+  
     }
 }

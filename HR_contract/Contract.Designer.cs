@@ -42,7 +42,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtfirstN = new System.Windows.Forms.TextBox();
             this.txtLastN = new System.Windows.Forms.TextBox();
-            this.cboGender = new System.Windows.Forms.ComboBox();
             this.dtpdob = new System.Windows.Forms.DateTimePicker();
             this.txtsalary = new System.Windows.Forms.TextBox();
             this.txtbonus = new System.Windows.Forms.TextBox();
@@ -54,6 +53,8 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnok = new System.Windows.Forms.Button();
             this.idAndName = new System.Windows.Forms.ComboBox();
+            this.btnGet = new System.Windows.Forms.Button();
+            this.cboGender = new System.Windows.Forms.TextBox();
             label2 = new System.Windows.Forms.Label();
             firstNameLabel = new System.Windows.Forms.Label();
             lastNameLabel = new System.Windows.Forms.Label();
@@ -192,6 +193,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.cboGender);
             this.groupBox1.Controls.Add(this.idAndName);
             this.groupBox1.Controls.Add(label2);
             this.groupBox1.Controls.Add(firstNameLabel);
@@ -199,7 +201,6 @@
             this.groupBox1.Controls.Add(lastNameLabel);
             this.groupBox1.Controls.Add(this.txtLastN);
             this.groupBox1.Controls.Add(genderLabel);
-            this.groupBox1.Controls.Add(this.cboGender);
             this.groupBox1.Controls.Add(hireDateLabel);
             this.groupBox1.Controls.Add(this.dtpdob);
             this.groupBox1.Controls.Add(salaryLabel);
@@ -237,20 +238,6 @@
             this.txtLastN.Name = "txtLastN";
             this.txtLastN.Size = new System.Drawing.Size(311, 36);
             this.txtLastN.TabIndex = 4;
-            // 
-            // cboGender
-            // 
-            this.cboGender.Enabled = false;
-            this.cboGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboGender.FormattingEnabled = true;
-            this.cboGender.Items.AddRange(new object[] {
-            "ប្រុស",
-            "ស្រី"});
-            this.cboGender.Location = new System.Drawing.Point(573, 285);
-            this.cboGender.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cboGender.Name = "cboGender";
-            this.cboGender.Size = new System.Drawing.Size(309, 37);
-            this.cboGender.TabIndex = 6;
             // 
             // dtpdob
             // 
@@ -349,16 +336,25 @@
             // btnok
             // 
             this.btnok.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnok.Location = new System.Drawing.Point(280, 694);
+            this.btnok.Location = new System.Drawing.Point(318, 694);
             this.btnok.Name = "btnok";
             this.btnok.Size = new System.Drawing.Size(136, 56);
             this.btnok.TabIndex = 28;
             this.btnok.Text = "យល់ព្រម";
+            this.btnok.UseMnemonic = false;
             this.btnok.UseVisualStyleBackColor = true;
             this.btnok.Click += new System.EventHandler(this.btnok_Click);
             // 
             // idAndName
             // 
+            this.idAndName.AutoCompleteCustomSource.AddRange(new string[] {
+            "apple",
+            "book",
+            "cat",
+            "dog",
+            "egg"});
+            this.idAndName.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Append;
+            this.idAndName.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.idAndName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.idAndName.FormattingEnabled = true;
             this.idAndName.Location = new System.Drawing.Point(53, 90);
@@ -367,10 +363,32 @@
             this.idAndName.TabIndex = 26;
             this.idAndName.SelectedIndexChanged += new System.EventHandler(this.idAndName_SelectedIndexChanged);
             // 
+            // btnGet
+            // 
+            this.btnGet.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGet.Location = new System.Drawing.Point(138, 694);
+            this.btnGet.Name = "btnGet";
+            this.btnGet.Size = new System.Drawing.Size(136, 56);
+            this.btnGet.TabIndex = 33;
+            this.btnGet.Text = "ទាញយក";
+            this.btnGet.UseVisualStyleBackColor = true;
+            this.btnGet.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // cboGender
+            // 
+            this.cboGender.Enabled = false;
+            this.cboGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboGender.Location = new System.Drawing.Point(571, 285);
+            this.cboGender.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cboGender.Name = "cboGender";
+            this.cboGender.Size = new System.Drawing.Size(306, 36);
+            this.cboGender.TabIndex = 27;
+            // 
             // Contract
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnGet);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnClear);
@@ -379,6 +397,8 @@
             this.Controls.Add(label1);
             this.Name = "Contract";
             this.Size = new System.Drawing.Size(1284, 781);
+            this.Load += new System.EventHandler(this.Contract_Load);
+            this.VisibleChanged += new System.EventHandler(this.Contract_VisibleChanged);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -391,7 +411,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtfirstN;
         private System.Windows.Forms.TextBox txtLastN;
-        private System.Windows.Forms.ComboBox cboGender;
         private System.Windows.Forms.DateTimePicker dtpdob;
         private System.Windows.Forms.TextBox txtsalary;
         private System.Windows.Forms.TextBox txtbonus;
@@ -403,5 +422,7 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnok;
         private System.Windows.Forms.ComboBox idAndName;
+        private System.Windows.Forms.Button btnGet;
+        private System.Windows.Forms.TextBox cboGender;
     }
 }

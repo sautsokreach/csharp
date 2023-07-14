@@ -76,6 +76,8 @@
             this.firstNameKhmer = new System.Windows.Forms.TextBox();
             this.btndelete = new System.Windows.Forms.Button();
             this.btnGet = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textId = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnedit
@@ -90,6 +92,7 @@
             this.btnedit.TabIndex = 101;
             this.btnedit.Text = "Edit";
             this.btnedit.UseVisualStyleBackColor = true;
+            this.btnedit.Click += new System.EventHandler(this.btnedit_Click);
             // 
             // familyStatus
             // 
@@ -148,7 +151,7 @@
             // 
             this.label23.Font = new System.Drawing.Font("Khmer OS Bokor", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.Black;
-            this.label23.Location = new System.Drawing.Point(345, 531);
+            this.label23.Location = new System.Drawing.Point(939, 544);
             this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(79, 44);
@@ -164,17 +167,17 @@
             "មធ្យម",
             "ល្អបង្គួរ",
             "ល្អ"});
-            this.languageLevel.Location = new System.Drawing.Point(431, 530);
+            this.languageLevel.Location = new System.Drawing.Point(1047, 543);
             this.languageLevel.Margin = new System.Windows.Forms.Padding(4);
             this.languageLevel.Name = "languageLevel";
-            this.languageLevel.Size = new System.Drawing.Size(143, 42);
+            this.languageLevel.Size = new System.Drawing.Size(120, 42);
             this.languageLevel.TabIndex = 100;
             // 
             // label22
             // 
             this.label22.Font = new System.Drawing.Font("Khmer OS Bokor", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.Black;
-            this.label22.Location = new System.Drawing.Point(10, 526);
+            this.label22.Location = new System.Drawing.Point(632, 539);
             this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(141, 44);
@@ -186,7 +189,7 @@
             // 
             this.label21.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.Black;
-            this.label21.Location = new System.Drawing.Point(319, 82);
+            this.label21.Location = new System.Drawing.Point(332, 159);
             this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(101, 44);
@@ -197,7 +200,7 @@
             // lastNameEng
             // 
             this.lastNameEng.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lastNameEng.Location = new System.Drawing.Point(420, 80);
+            this.lastNameEng.Location = new System.Drawing.Point(433, 157);
             this.lastNameEng.Margin = new System.Windows.Forms.Padding(4);
             this.lastNameEng.Name = "lastNameEng";
             this.lastNameEng.Size = new System.Drawing.Size(156, 41);
@@ -206,7 +209,7 @@
             // firstNameEng
             // 
             this.firstNameEng.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.firstNameEng.Location = new System.Drawing.Point(182, 82);
+            this.firstNameEng.Location = new System.Drawing.Point(195, 159);
             this.firstNameEng.Margin = new System.Windows.Forms.Padding(4);
             this.firstNameEng.Name = "firstNameEng";
             this.firstNameEng.Size = new System.Drawing.Size(135, 41);
@@ -215,7 +218,7 @@
             // lastNameKhmer
             // 
             this.lastNameKhmer.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lastNameKhmer.Location = new System.Drawing.Point(420, 24);
+            this.lastNameKhmer.Location = new System.Drawing.Point(433, 101);
             this.lastNameKhmer.Margin = new System.Windows.Forms.Padding(4);
             this.lastNameKhmer.Name = "lastNameKhmer";
             this.lastNameKhmer.Size = new System.Drawing.Size(156, 41);
@@ -225,7 +228,7 @@
             // 
             this.label20.Font = new System.Drawing.Font("Khmer OS Bokor", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.Black;
-            this.label20.Location = new System.Drawing.Point(346, 24);
+            this.label20.Location = new System.Drawing.Point(359, 101);
             this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(53, 44);
@@ -353,10 +356,10 @@
             "ចិន",
             "ជប៉ុន",
             "កូរេ"});
-            this.langauge.Location = new System.Drawing.Point(180, 528);
+            this.langauge.Location = new System.Drawing.Point(804, 541);
             this.langauge.Margin = new System.Windows.Forms.Padding(4);
             this.langauge.Name = "langauge";
-            this.langauge.Size = new System.Drawing.Size(157, 42);
+            this.langauge.Size = new System.Drawing.Size(122, 42);
             this.langauge.TabIndex = 82;
             // 
             // label13
@@ -422,7 +425,7 @@
             // 
             this.label12.Font = new System.Drawing.Font("Khmer OS Bokor", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(8, 464);
+            this.label12.Location = new System.Drawing.Point(21, 541);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(141, 44);
@@ -433,7 +436,7 @@
             // phoneNumber
             // 
             this.phoneNumber.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phoneNumber.Location = new System.Drawing.Point(180, 467);
+            this.phoneNumber.Location = new System.Drawing.Point(193, 544);
             this.phoneNumber.Margin = new System.Windows.Forms.Padding(4);
             this.phoneNumber.Name = "phoneNumber";
             this.phoneNumber.Size = new System.Drawing.Size(394, 41);
@@ -443,7 +446,7 @@
             // 
             this.label2.Font = new System.Drawing.Font("Khmer OS Bokor", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(-13, 23);
+            this.label2.Location = new System.Drawing.Point(0, 100);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(160, 44);
@@ -455,7 +458,7 @@
             // 
             this.label3.Font = new System.Drawing.Font("Khmer OS Bokor", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(3, 136);
+            this.label3.Location = new System.Drawing.Point(16, 213);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(147, 44);
@@ -466,7 +469,7 @@
             // addreess
             // 
             this.addreess.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addreess.Location = new System.Drawing.Point(180, 298);
+            this.addreess.Location = new System.Drawing.Point(193, 375);
             this.addreess.Margin = new System.Windows.Forms.Padding(4);
             this.addreess.Name = "addreess";
             this.addreess.Size = new System.Drawing.Size(395, 41);
@@ -476,7 +479,7 @@
             // 
             this.label4.Font = new System.Drawing.Font("Khmer OS Bokor", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(3, 194);
+            this.label4.Location = new System.Drawing.Point(16, 271);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(147, 44);
@@ -488,7 +491,7 @@
             // 
             this.label9.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(44, 87);
+            this.label9.Location = new System.Drawing.Point(57, 164);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(103, 44);
@@ -501,7 +504,7 @@
             this.dateOfBirth.CustomFormat = "dd/MMM/yyyy";
             this.dateOfBirth.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateOfBirth.Location = new System.Drawing.Point(180, 195);
+            this.dateOfBirth.Location = new System.Drawing.Point(193, 272);
             this.dateOfBirth.Margin = new System.Windows.Forms.Padding(4);
             this.dateOfBirth.Name = "dateOfBirth";
             this.dateOfBirth.Size = new System.Drawing.Size(395, 30);
@@ -511,7 +514,7 @@
             // 
             this.label11.Font = new System.Drawing.Font("Khmer OS Bokor", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(76, 405);
+            this.label11.Location = new System.Drawing.Point(89, 482);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(73, 44);
@@ -522,7 +525,7 @@
             // nationality
             // 
             this.nationality.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nationality.Location = new System.Drawing.Point(180, 408);
+            this.nationality.Location = new System.Drawing.Point(193, 485);
             this.nationality.Margin = new System.Windows.Forms.Padding(4);
             this.nationality.Name = "nationality";
             this.nationality.Size = new System.Drawing.Size(394, 41);
@@ -532,7 +535,7 @@
             // 
             this.label5.Font = new System.Drawing.Font("Khmer OS Bokor", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(0, 243);
+            this.label5.Location = new System.Drawing.Point(13, 320);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(147, 44);
@@ -543,7 +546,7 @@
             // nation
             // 
             this.nation.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nation.Location = new System.Drawing.Point(180, 354);
+            this.nation.Location = new System.Drawing.Point(193, 431);
             this.nation.Margin = new System.Windows.Forms.Padding(4);
             this.nation.Name = "nation";
             this.nation.Size = new System.Drawing.Size(395, 41);
@@ -553,7 +556,7 @@
             // 
             this.label6.Font = new System.Drawing.Font("Khmer OS Bokor", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(-42, 290);
+            this.label6.Location = new System.Drawing.Point(-29, 367);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(192, 44);
@@ -569,7 +572,7 @@
             "ប្រុស",
             "ស្រី",
             "ផ្សេងៗ"});
-            this.gender.Location = new System.Drawing.Point(182, 136);
+            this.gender.Location = new System.Drawing.Point(195, 213);
             this.gender.Margin = new System.Windows.Forms.Padding(4);
             this.gender.Name = "gender";
             this.gender.Size = new System.Drawing.Size(394, 42);
@@ -579,7 +582,7 @@
             // 
             this.label10.Font = new System.Drawing.Font("Khmer OS Bokor", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(70, 351);
+            this.label10.Location = new System.Drawing.Point(83, 428);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(77, 44);
@@ -590,7 +593,7 @@
             // placeOfBirth
             // 
             this.placeOfBirth.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.placeOfBirth.Location = new System.Drawing.Point(180, 243);
+            this.placeOfBirth.Location = new System.Drawing.Point(193, 320);
             this.placeOfBirth.Margin = new System.Windows.Forms.Padding(4);
             this.placeOfBirth.Name = "placeOfBirth";
             this.placeOfBirth.Size = new System.Drawing.Size(395, 41);
@@ -599,7 +602,7 @@
             // firstNameKhmer
             // 
             this.firstNameKhmer.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.firstNameKhmer.Location = new System.Drawing.Point(180, 24);
+            this.firstNameKhmer.Location = new System.Drawing.Point(193, 101);
             this.firstNameKhmer.Margin = new System.Windows.Forms.Padding(4);
             this.firstNameKhmer.Name = "firstNameKhmer";
             this.firstNameKhmer.Size = new System.Drawing.Size(135, 41);
@@ -617,6 +620,7 @@
             this.btndelete.TabIndex = 106;
             this.btndelete.Text = "Delete";
             this.btndelete.UseVisualStyleBackColor = true;
+            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
             // btnGet
             // 
@@ -630,11 +634,35 @@
             this.btnGet.TabIndex = 107;
             this.btnGet.Text = "Get";
             this.btnGet.UseVisualStyleBackColor = true;
+            this.btnGet.Click += new System.EventHandler(this.btnGet_Click);
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Khmer OS Bokor", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(23, 23);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(141, 44);
+            this.label1.TabIndex = 108;
+            this.label1.Text = "អត្តលេខ";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // textId
+            // 
+            this.textId.Font = new System.Drawing.Font("Khmer OS Bokor", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textId.Location = new System.Drawing.Point(195, 26);
+            this.textId.Margin = new System.Windows.Forms.Padding(4);
+            this.textId.Name = "textId";
+            this.textId.Size = new System.Drawing.Size(394, 41);
+            this.textId.TabIndex = 109;
             // 
             // Background
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textId);
             this.Controls.Add(this.btnGet);
             this.Controls.Add(this.btndelete);
             this.Controls.Add(this.btnedit);
@@ -685,6 +713,7 @@
             this.Controls.Add(this.firstNameKhmer);
             this.Name = "Background";
             this.Size = new System.Drawing.Size(1203, 724);
+            this.Load += new System.EventHandler(this.Background_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -740,5 +769,7 @@
         private System.Windows.Forms.TextBox firstNameKhmer;
         private System.Windows.Forms.Button btndelete;
         private System.Windows.Forms.Button btnGet;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textId;
     }
 }
