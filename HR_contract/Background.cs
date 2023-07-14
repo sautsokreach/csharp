@@ -25,7 +25,7 @@ namespace HR_contract
             {
                 SqlConnection con = new Connection().dbs;
 
-                SqlCommand cmd = new SqlCommand(String.Format("INSERT INTO dbo.tbl_staff (firstname_khmer, lastname_khmer, firstname_eng, lastname_eng, sex, dateofbirth, placeofbirth, addresss, nation, nationality, phonenumber, email, education, langauge, langaugelevel,fathername, fatherstatus, fatherjob, mothername, motherstarus, motherjob) VALUES(@firstname_khmer, @lastname_khmer, @firstname_eng, @lastname_eng, @sex, @dateofbirth, @placeofbirth, @addresss, @nation, @nationality, @phonenumber, @email, @education, @langauge, @langaugelevel,@fathername, @fatherstatus, @fatherjob, @mothername, @motherstarus, @motherjob)"), con);
+                SqlCommand cmd = new SqlCommand(String.Format("INSERT INTO dbo.tbl_staff (firstname_khmer, lastname_khmer, firstname_eng, lastname_eng, sex, dateofbirth, placeofbirth, addresss, nation, nationality, phonenumber, email, education, langauge, langaugelevel,fathername, fatherstatus, fatherjob, mothername, motherstarus, motherjob,status) VALUES(@firstname_khmer, @lastname_khmer, @firstname_eng, @lastname_eng, @sex, @dateofbirth, @placeofbirth, @addresss, @nation, @nationality, @phonenumber, @email, @education, @langauge, @langaugelevel,@fathername, @fatherstatus, @fatherjob, @mothername, @motherstarus, @motherjob,@status)"), con);
                 cmd.Parameters.AddWithValue("@firstname_khmer", firstNameKhmer.Text);
                 cmd.Parameters.AddWithValue("@lastname_khmer", lastNameKhmer.Text);
                 cmd.Parameters.AddWithValue("@firstname_eng", firstNameEng.Text);
@@ -42,11 +42,12 @@ namespace HR_contract
                 cmd.Parameters.AddWithValue("@langauge", langauge.Text);
                 cmd.Parameters.AddWithValue("@langaugelevel", languageLevel.Text);
                 cmd.Parameters.AddWithValue("@fathername", father.Text);
-                cmd.Parameters.AddWithValue("@fatherstatus", familyStatus.Text);
+                cmd.Parameters.AddWithValue("@fatherstatus", fatherStatus.Text);
                 cmd.Parameters.AddWithValue("@fatherjob", fatherJob.Text);
                 cmd.Parameters.AddWithValue("@mothername", mother.Text);
                 cmd.Parameters.AddWithValue("@motherstarus", motherStatus.Text);
                 cmd.Parameters.AddWithValue("@motherjob", motherJob.Text);
+                cmd.Parameters.AddWithValue("@status", familyStatus.Text);
                 cmd.ExecuteNonQuery();
                 con.Close();
                 textId.Text = (int.Parse(textId.Text) + 1).ToString();

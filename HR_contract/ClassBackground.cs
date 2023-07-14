@@ -30,6 +30,7 @@ namespace HR_contract
         public String Mothername { get; set; }
         public String Motherstatus { get; set; }
         public String Motherjob { get; set; }
+        public String Status { get; set; }
 
     }
 }
